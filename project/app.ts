@@ -1,5 +1,5 @@
 type Combinable = number | string;
-type ConversionDescriptor = 'as-number' | 'as-test';
+type ConversionDescriptor = 'as-number' | 'as-text';
 
 function combine(
   input1: Combinable,
